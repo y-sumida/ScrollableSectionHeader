@@ -12,6 +12,8 @@
 		A910DDF21E927D1D0074DF80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A910DDF01E927D1D0074DF80 /* Main.storyboard */; };
 		A910DDF41E927D1D0074DF80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A910DDF31E927D1D0074DF80 /* Assets.xcassets */; };
 		A910DDF71E927D1D0074DF80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A910DDF51E927D1D0074DF80 /* LaunchScreen.storyboard */; };
+		A910DDFF1E92806B0074DF80 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A910DDFE1E92806B0074DF80 /* HeaderView.xib */; };
+		A910DE011E9280B50074DF80 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910DE001E9280B50074DF80 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A910DDF31E927D1D0074DF80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A910DDF61E927D1D0074DF80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A910DDF81E927D1D0074DF80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A910DDFE1E92806B0074DF80 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		A910DE001E9280B50074DF80 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A910DDF31E927D1D0074DF80 /* Assets.xcassets */,
 				A910DDF51E927D1D0074DF80 /* LaunchScreen.storyboard */,
 				A910DDF81E927D1D0074DF80 /* Info.plist */,
+				A910DDFE1E92806B0074DF80 /* HeaderView.xib */,
+				A910DE001E9280B50074DF80 /* HeaderView.swift */,
 			);
 			path = ScrollSectionHeader;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 				A910DDF71E927D1D0074DF80 /* LaunchScreen.storyboard in Resources */,
 				A910DDF41E927D1D0074DF80 /* Assets.xcassets in Resources */,
 				A910DDF21E927D1D0074DF80 /* Main.storyboard in Resources */,
+				A910DDFF1E92806B0074DF80 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A910DDEF1E927D1D0074DF80 /* ViewController.swift in Sources */,
+				A910DE011E9280B50074DF80 /* HeaderView.swift in Sources */,
 				A910DDED1E927D1D0074DF80 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
